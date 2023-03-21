@@ -10,17 +10,29 @@
   </head>
   <body>
     <main class="main">
-      <select id="select" class="select" name="select">
-        <option value="select">select dog</option>
-      </select>
-      <div class="image__container">
-        <button id="button" class="button">
-          <p>generate image</p>
-        </button>
-        <div class="image">
-          <img id="image" class="image__random" src="" alt="" />
+      <div class="api__container">
+        <select id="select" class="select" name="select">
+          <option value="select">select dog</option>
+        </select>
+        <div class="image__container">
+          <div class="header__image">
+            <button id="button" class="button">
+              <p>generate image</p>
+            </button>
+            <img
+              id="like"
+              class="image__heart"
+              src="assets/images/heart-regular.svg"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img id="image" class="image__random" src="" alt="" />
+          </div>
         </div>
-        <!-- <img class="img__heart" src="assets/images/heart-regular.svg" alt="" /> -->
+      </div>
+      <div class="gallery">
+        <div class="gallery__image">sss</div>
       </div>
     </main>
     <script type="module" src="./js/index.js"></script>

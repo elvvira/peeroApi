@@ -28,3 +28,14 @@ color: gray;
         height: 100%;
     }
 }
+.header__image{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+.image__heart{
+    width: 60px;
+}
+.image__heartSolid{
+    width: 60px;
+}
