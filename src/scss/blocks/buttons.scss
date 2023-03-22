@@ -1,41 +1,48 @@
-
-.button{
-width: 340px;
-height: 60px;
-border: transparent;
-border-radius: 1rem;
-font-size: 2rem;
-font-weight: bold;
-padding-left: 1rem;
-background-color: yellow;
-color: gray;
-
+.button {
+  width: 340px;
+  height: 60px;
+  border: transparent;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  background-color: yellow;
+  color: gray;
+  &-favorite {
+    border: transparent;
+    border-radius: 1rem;
+    width: 160px;
+    background-color: yellow;
+    color: fuchsia;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
 }
-.image__container{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.image__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.image{
-    width: 700px;
-    height: 500px;
-    border: 3px solid yellow;
-    border-radius: 2rem;
-    overflow: hidden;
-    &__random{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
+.image {
+  width: 700px;
+  height: 500px;
+  border: 3px solid yellow;
+  border-radius: 2rem;
+  overflow: hidden;
+  &__random {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
-.header__image{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 1rem;
+.header__image {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
 }
-.image__heart{
-    width: 60px;
+.image__heart {
+  width: 60px;
 }
-.image__heartSolid{
-    width: 60px;
+.image__heartSolid {
+  width: 60px;
 }
