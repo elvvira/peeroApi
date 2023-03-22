@@ -1,8 +1,38 @@
 .gallery{
-    background-color: red;
     width: 100%;
     height: 400px;
     margin-right: auto;
     margin-left: auto;
-    &__image{}
+    &__image{
+        width: 400px;
+        height: 380px;
+        border: 3px solid yellow;
+        border-radius: 1rem;
+        position: relative;
+        overflow: hidden;
+    }
+    &__dog{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+    &__heart{
+        width: 40px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    &__title{
+        font-size: 3rem;
+        color: yellow;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    &__container{
+        display: flex;
+        width: 1300px;
+        flex-wrap: wrap;
+        gap:2rem ;
+    }
 }
